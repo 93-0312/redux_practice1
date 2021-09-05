@@ -9,7 +9,7 @@ function ProductList({ addToCart }) {
 
   return (
     <ListContainer>
-      <Title>상품 목록</Title>
+      <Title>상품 리스트</Title>
       <Line />
       <CardContainer>
         {CART_ITEM.map((e, i) => (
